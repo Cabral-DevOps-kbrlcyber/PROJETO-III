@@ -1,0 +1,136 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    background-color: aliceblue;
+    
+}
+
+
+.navbar {
+    background-color: #255ab2;
+}
+
+.container h1 {
+    font-size: 25px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #255ab2;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Slabo 27px', serif;
+}
+
+
+
+.text-colored {
+    color: #255ab2;
+}
+
+.nav-produtos .nav-link.active, 
+#fale-conosco button {
+    background-color:#255ab2 ;
+    color: #fff;
+}
+
+.nav-link:hover {
+
+    color: #0e4429;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+#mensagem {
+    resize: none;
+}
+
+.imagens {
+    height: 400px;
+}
+
+.imagem-2 {
+    max-width: 202px;
+}
+
+.imagem-3 {
+    max-width: 202px;
+}
+
+.imagem-2-a {
+    max-width: 150px;
+    margin-left: 25px;
+    
+}
+
+.imagem-2-a-b {
+    height: 124px;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+section {
+    padding-top:  0;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+    .carousel-inner {
+        height: 280px;
+    }
+
+    .imagens {
+        height: 180px;
+    }
+
+    #imagem-principal {
+        padding-top: 0;
+    }
+
+    .imagem-2, 
+    .imagem-3 {
+        max-width: 100%;
+    }
+
+    .imagem-2-a {
+        max-width: 100%;
+        margin: 0;
+        
+    }
+
+    .imagem-2-a-b {
+        height: 299px;
+        padding: 16px 0;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+}
